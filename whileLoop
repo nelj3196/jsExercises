@@ -1,0 +1,46 @@
+
+console.log("NUMBERS BETWEEN -10 AND 19");
+
+var num = -10;
+while(num <= 19) {
+	// console.log(num);
+	console.log(num);
+	num++;
+}
+
+
+
+
+console.log("EVEN NUMBERS BETWEEN  10 AND 40");
+
+var evenNum = 10;
+while(evenNum <= 40) {
+	if(evenNum % 2 === 0) {
+		console.log(evenNum);
+	}
+	evenNum++;
+}
+
+
+
+
+console.log("ODD NUMBERS BETWEEN 300 AND 333");
+
+var oddNum = 300;
+while(oddNum <= 333) {
+	if(oddNum % 2 === 1) {
+		console.log(oddNum);
+	}
+	oddNum++;
+}
+
+console.log("DIVISiBLE BY 5 AND 3 BETWEEN 5 AND 50");
+
+var divNum = 5;
+
+while(divNum <= 50) {
+	if(divNum % 5 === 0 && divNum % 3 === 0) {
+		console.log(divNum);
+	}
+	divNum++;
+}
