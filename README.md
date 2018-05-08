@@ -28,3 +28,16 @@ sumArray():
 
 max():
 1. WRITE A FUNCTION max() THAT ACCEPTS AN ARRAY OF NUMBERS AND RETURNS THE MAXIMUM NUMBER IN THE ARRAY.
+
+movieDB.js:
+1. movieDB
+2. CREATE AN ARRAY OF MOVIE OBJECTS. EACH MOVIE SHOULD HAVE A title,
+3. rating, and hasWatched PROPERTIES. ITERATE THROUGH THE ARRAY AND
+4. PRINT OUT SOMETHING THAT LOOKS LIKE:
+
+// ***********************************************
+// You have watched 'The Matrix' - 5 stars
+// You have not watched 'The Truman Show' - 5 stars
+// You have watched 'The 13th Floor' - 5 stars
+// You have have not watched 'Mr. Nobody' - 5 stars
+// ***********************************************
