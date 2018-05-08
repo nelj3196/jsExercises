@@ -1,0 +1,47 @@
+
+
+// movieDB
+// CREATE AN ARRAY OF MOVIE OBJECTS. EACH MOVIE SHOULD HAVE A title,
+// rating, and hasWatched PROPERTIES. ITERATE THROUGH THE ARRAY AND
+// PRINT OUT SOMETHING THAT LOOKS LIKE:
+
+// ***********************************************
+// You have watched 'The Matrix' - 5 stars
+// You have not watched 'The Truman Show' - 5 stars
+// You have watched 'The 13th Floor' - 5 stars
+// You have have not watched 'Mr. Nobody' - 5 stars
+// ***********************************************
+
+
+var movies = [
+	{
+		title: "The Matrix",
+		rating: 5,
+		hasWatched: true
+	},
+	{
+		title: "The Truman Show",
+		rating: 5,
+		hasWatched: false
+	},
+	{
+		title: "The 13th Floor",
+		rating: 5,
+		hasWatched: true
+	},
+	{
+		title: "Mr. Nobody",
+		rating: 4.5,
+		hasWatched: false
+	}
+];
+
+// Loop for movies watched
+for(var i = 0; i < movies.length; i++) {
+	if(movies[i].hasWatched === true) {
+		console.log("You have watched " + movies[i].title + " - " + movies[i].rating + " stars");
+	}
+	else {
+		console.log("You have not watched " + movies[i].title + " - " + movies[i].rating + " stars");
+	}
+}
