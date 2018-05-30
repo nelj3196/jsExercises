@@ -35,9 +35,12 @@ movieDB.js:
 3. rating, and hasWatched PROPERTIES. ITERATE THROUGH THE ARRAY AND
 4. PRINT OUT SOMETHING THAT LOOKS LIKE:
 
-// ***********************************************
-// You have watched 'The Matrix' - 5 stars
-// You have not watched 'The Truman Show' - 5 stars
-// You have watched 'The 13th Floor' - 5 stars
-// You have have not watched 'Mr. Nobody' - 5 stars
-// ***********************************************
+***********************************************
+You have watched 'The Matrix' - 5 stars
+You have not watched 'The Truman Show' - 5 stars
+You have watched 'The 13th Floor' - 5 stars
+You have have not watched 'Mr. Nobody' - 5 stars
+***********************************************
+
+score.js:
+Score keeping app
